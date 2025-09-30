@@ -1,0 +1,150 @@
+body{
+ font-family: Llevares, sans-serif;
+ margin: 0;
+ padding:0;
+ background-color:rgb(118, 53, 250);
+ color: #fffcfc;
+ line-height:  1.7em;
+}
+
+.container{
+	width:90%;
+	margin: auto;
+	overflow:hidden;
+	padding: 0 20px;
+	align-items:center;
+	display:flex;
+	justify-content:center;
+	min-height:100vh;
+	text-align:center;
+}
+header{
+	background: #e6c1d5;
+	color: white;
+	padding-top: 30px;
+	min-height: 70px;
+	border-bottom: 3px solid #060000;
+}
+ header li{
+	float:Center;
+	display: inline;
+	padding: 0 20px 0 20px;
+ }
+ header .site-little{
+	float:Center;
+	padding-left: 20px
+ }
+ header .site-title h1{
+	margin: 0;
+ }
+ header nav ul li a:hover{
+	color:#f2eff0;
+	font-weight: bold;
+ }
+ #hero {
+	background-image: url('assets/media/hero-image.jpg');
+	background-size: cover;
+	background-position: center;
+	color: white ;
+	text-align: center;
+	padding: 100px 0;
+ }
+ #hero h1 {
+	font-size:4em;
+	margin-bottom: 20px;
+ }
+ #hero p {
+	font-size:1.3em;
+ }
+ #contact-form{
+	padding: 20px
+ }
+ #contact-form h2 {
+	text-align: center;
+ }
+ #contact-form form {
+	padding: 20px
+ }
+ #contact form label{
+	display:block;
+	margin: bottom 6px;
+ }
+ #contact-form input[type="text"],
+ #contact-form textarea{
+	width: 10%;
+	padding:9px;
+	margin: bottom 10px;border:none;
+	border: 1px solid #1c1719;
+}
+#contact-form button{
+	background-color:#d127a4;
+	color: white;
+	padding: 15px 20px;
+	border: none;
+    cursor: pointer;
+}
+#location {
+	text-align:center;
+	padding: 20px;
+}
+#location iframe {
+	width: 100%;
+	height:300px;
+	border:1px solid #8a8689;
+}
+aside {
+	width :20%;
+	padding:20px;
+	margin-top: 20px;
+	float: right;
+}
+aside img{
+	width: 100%;
+	height: auto;
+	border-radius: 6px;
+}
+aside h3 {
+	margin-top: 10px;
+}
+footer {
+	background:#12c97d;
+	color:white;
+	text-align: center;
+	padding:20px;
+	margin-top: 20px;
+}
+.product-item-card {
+  border: 1px solid #080101;
+  border-radius: 5px;
+  padding: 8px;
+  margin: 8px;
+  width: 200px;
+  font-size: 0.9em;
+  text-align: center;
+}
+
+.card-image {
+  width: 100%;
+  height: 150px;
+  object-fit:cover;
+  border-radius: 5px;
+}
+
+.card-title {
+  font-size: 1em;
+  margin-top: 10px;
+}
+
+.card-price {
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+
+.add-to-cart-button {
+  background-color: #4CAF50;
+  color: rgb(53, 197, 236);
+  padding: 8px 16px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
